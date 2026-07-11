@@ -1,0 +1,12 @@
+=== Model: tunedbayes.model ===
+Dictionary size: 0
+
+The independent frequency of a class
+--------------------------------------
+Bankrupt	21.0
+Non-bankrupt	21.0
+
+The frequency of a word given the class
+-----------------------------------------
+   Bankrupt	Non-bankrup	
+

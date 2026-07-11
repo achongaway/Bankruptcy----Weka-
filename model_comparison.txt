@@ -1,0 +1,10 @@
+Evaluation of seven tuned Weka classifiers on the 20-company held-out test set
+Model                        Accuracy   F1(Bkrpt)  Recall(Bkrpt) Prec(Bkrpt) 
+tunedbagging                 0.500      0.667      1.000        0.500       
+tunedbayes                   0.500      0.667      1.000        0.500       
+tunedknnlbk                  0.500      0.640      0.889        0.500       
+tunedmultilayerperceptron    0.611      0.720      1.000        0.563       
+tunedrandomforest            0.500      0.667      1.000        0.500       
+tunedSMO                     0.611      0.720      1.000        0.563       
+tunedtreesj48                0.500      0.667      1.000        0.500       
+

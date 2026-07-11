@@ -1,0 +1,9 @@
+=== Model: tunedbagging.model ===
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.meta.Bagging
+Cross-validation Parameter: '-I' ranged from 10.0 to 90.0 with 5.0 steps
+Classifier Options: -I 10 -P 100 -S 1 -num-slots 1 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+Bagging with 10 iterations and base learner
+
+weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0

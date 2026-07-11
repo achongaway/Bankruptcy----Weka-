@@ -1,0 +1,12 @@
+=== Model: tunedrandomforest.model ===
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.trees.RandomForest
+Cross-validation Parameter: '-depth' ranged from 5.0 to 25.0 with 5.0 steps
+Cross-validation Parameter: '-I' ranged from 50.0 to 150.0 with 5.0 steps
+Classifier Options: -depth 5 -I 50 -P 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+
+RandomForest
+
+Bagging with 50 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 5 -do-not-check-capabilities

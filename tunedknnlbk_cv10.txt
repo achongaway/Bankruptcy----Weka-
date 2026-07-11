@@ -1,0 +1,25 @@
+=== tunedknnlbk — 10-fold cross-validation on 40-company training set ===
+Scheme: weka.classifiers.lazy.IBk -K 7 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+
+Correctly Classified Instances          33               82.5    %
+Incorrectly Classified Instances         7               17.5    %
+Kappa statistic                          0.65  
+Mean absolute error                      0.3193
+Root mean squared error                  0.3958
+Relative absolute error                 63.8583 %
+Root relative squared error             79.1642 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.700    0.050    0.933      0.700    0.800      0.671    0.830     0.802     Bankrupt
+                 0.950    0.300    0.760      0.950    0.844      0.671    0.830     0.773     Non-bankrupt
+Weighted Avg.    0.825    0.175    0.847      0.825    0.822      0.671    0.830     0.788     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 14  6 |  a = Bankrupt
+  1 19 |  b = Non-bankrupt
+

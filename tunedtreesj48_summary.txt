@@ -1,0 +1,17 @@
+=== Model: tunedtreesj48.model ===
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.trees.J48
+Cross-validation Parameter: '-M' ranged from 1.0 to 9.0 with 5.0 steps
+Cross-validation Parameter: '-C' ranged from 0.05 to 0.5 with 10.0 steps
+Classifier Options: -M 5 -C 0.05
+
+J48 pruned tree
+------------------
+
+Op_Leverage <= 1: Bankrupt (19.0/1.0)
+Op_Leverage > 1: Non-bankrupt (21.0/2.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+

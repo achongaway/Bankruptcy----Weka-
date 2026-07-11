@@ -1,0 +1,25 @@
+=== tunedmultilayerperceptron — 10-fold cross-validation on 40-company training set ===
+Scheme: weka.classifiers.functions.MultilayerPerceptron -M 0.1 -L 0.3775 -N 500 -V 0 -S 0 -E 20 -H a
+
+Correctly Classified Instances          29               72.5    %
+Incorrectly Classified Instances        11               27.5    %
+Kappa statistic                          0.45  
+Mean absolute error                      0.3204
+Root mean squared error                  0.4119
+Relative absolute error                 64.0747 %
+Root relative squared error             82.3864 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.750    0.300    0.714      0.750    0.732      0.451    0.820     0.875     Bankrupt
+                 0.700    0.250    0.737      0.700    0.718      0.451    0.820     0.720     Non-bankrupt
+Weighted Avg.    0.725    0.275    0.726      0.725    0.725      0.451    0.820     0.798     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 15  5 |  a = Bankrupt
+  6 14 |  b = Non-bankrupt
+

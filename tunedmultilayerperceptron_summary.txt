@@ -1,0 +1,1170 @@
+=== Model: tunedmultilayerperceptron.model ===
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.functions.MultilayerPerceptron
+Cross-validation Parameter: '-M' ranged from 0.1 to 0.9 with 5.0 steps
+Cross-validation Parameter: '-L' ranged from 0.01 to 0.5 with 5.0 steps
+Classifier Options: -M 0.1 -L 0.3775 -N 500 -V 0 -S 0 -E 20 -H a
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.3309979661696307
+    Node 2    -0.34766124120680364
+    Node 3    -0.09669737759880216
+    Node 4    0.005999475111773692
+    Node 5    -0.4056318501990684
+    Node 6    -0.2012134501732087
+    Node 7    -0.7705864201968113
+    Node 8    0.6030514083507018
+    Node 9    -1.4619508804719576
+    Node 10    -0.1869779794665531
+    Node 11    -1.9972458674569316
+    Node 12    -1.6427487324051424
+    Node 13    -1.83870735087145
+    Node 14    -0.24464701519644835
+    Node 15    0.07909907186813947
+    Node 16    0.013345536466602482
+    Node 17    -0.1079388950900154
+    Node 18    1.3249417408932909
+    Node 19    0.028673788291542858
+    Node 20    -1.0360463659617085
+    Node 21    1.47276487998922
+    Node 22    3.891590638522389
+    Node 23    -1.4531512386388123
+    Node 24    2.236013167534628
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.2904953266014012
+    Node 2    0.2999103107755137
+    Node 3    0.05402962943467965
+    Node 4    -0.04293407536992052
+    Node 5    0.38591767230201673
+    Node 6    0.15404892831027167
+    Node 7    0.7760873202942122
+    Node 8    -0.5902246921770204
+    Node 9    1.4554529428446936
+    Node 10    0.1612505678151455
+    Node 11    2.042507009733255
+    Node 12    1.618241375077805
+    Node 13    1.8705202174220934
+    Node 14    0.2663051298946475
+    Node 15    -0.055940858591390634
+    Node 16    0.009396361661260538
+    Node 17    0.03780764619314659
+    Node 18    -1.3416763674473988
+    Node 19    -0.060453255493485236
+    Node 20    0.9787701593413746
+    Node 21    -1.4604542111319665
+    Node 22    -3.9349293469849305
+    Node 23    1.4348830748632235
+    Node 24    -2.181735473574193
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.022573045747766085
+    Attrib Company=3M Company    0.04897887325364752
+    Attrib Company=Abbott Laboratories    0.11881179781322677
+    Attrib Company=American Medical Systems    -0.1056381339610383
+    Attrib Company=Amgen    0.010883505057807556
+    Attrib Company=Avadel Pharmaceuticals    -0.18121488256331791
+    Attrib Company=Bed Bath & Beyond    -0.035314319123173135
+    Attrib Company=Best Buy    0.14736784170523257
+    Attrib Company=Calpine Corporation    -0.1297086876571239
+    Attrib Company=Caterpillar    0.10205008454189218
+    Attrib Company=Claire's Stores    -0.03344676169699863
+    Attrib Company=Costco    0.1408282876762016
+    Attrib Company=Deere & Company    0.12943327806165342
+    Attrib Company=Dollar General    0.11891495803632005
+    Attrib Company=Endo International    -0.06430838866313428
+    Attrib Company=Forever 21    -0.09132892398978132
+    Attrib Company=General Motors    -0.0013742933350237106
+    Attrib Company=Home Depot    0.12321804112175096
+    Attrib Company=Honeywell Intl.    0.06733101442877654
+    Attrib Company=JCPenney    -0.015184868715586585
+    Attrib Company=Joann Inc.    -0.03124170452101442
+    Attrib Company=Johnson & Johnson    0.10840766984429147
+    Attrib Company=Kohl's    0.028391698614849345
+    Attrib Company=Lockheed Martin    0.11793523327587693
+    Attrib Company=Lowe's    0.1464722597635071
+    Attrib Company=Lyondell Chemical    -0.011968877918679918
+    Attrib Company=Macy's    0.09673888975613475
+    Attrib Company=Nordstrom    0.05174739860654686
+    Attrib Company=Novum Pharma    -0.05736201903228631
+    Attrib Company=Party City    -0.019958267324263722
+    Attrib Company=Payless ShoeSource    -0.02025697333340853
+    Attrib Company=Pfizer    0.12364785286430396
+    Attrib Company=Pier 1 Imports    -0.03560584131647394
+    Attrib Company=Quorum Health    -0.07438047202418635
+    Attrib Company=Remington Outdoor    -0.08048923625237087
+    Attrib Company=Sears Holdings    0.022698052255407428
+    Attrib Company=Target    0.013235670877771997
+    Attrib Company=Toys R Us    -0.08000565263915098
+    Attrib Company=UnitedHealth Group    0.03988623117587488
+    Attrib Company=Walmart    0.0887471019901628
+    Attrib Company=Westinghouse Electric    -0.04654366426443078
+    Attrib CMR    0.08219448220202327
+    Attrib Op_Leverage    0.19009382636519143
+    Attrib Fin_Leverage    0.1066646827681814
+    Attrib Cash_Ratio    0.060527708606497733
+    Attrib Debt_to_Equity    0.06055362028734276
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.013606907304786796
+    Attrib Company=3M Company    0.033643934874082085
+    Attrib Company=Abbott Laboratories    0.08149453531891508
+    Attrib Company=American Medical Systems    0.06659072153850058
+    Attrib Company=Amgen    0.09574672279735406
+    Attrib Company=Avadel Pharmaceuticals    2.699795952508013E-4
+    Attrib Company=Bed Bath & Beyond    0.07477215456094193
+    Attrib Company=Best Buy    0.11609018751736125
+    Attrib Company=Calpine Corporation    0.012253110807311578
+    Attrib Company=Caterpillar    0.10582654525186136
+    Attrib Company=Claire's Stores    0.0877916697063623
+    Attrib Company=Costco    0.12811449154256177
+    Attrib Company=Deere & Company    0.11689093806641791
+    Attrib Company=Dollar General    0.06528280536122359
+    Attrib Company=Endo International    0.09094610194042836
+    Attrib Company=Forever 21    0.019229046340103553
+    Attrib Company=General Motors    0.06298725669527988
+    Attrib Company=Home Depot    0.04568134359530106
+    Attrib Company=Honeywell Intl.    0.05135522695742678
+    Attrib Company=JCPenney    -0.004950811398116265
+    Attrib Company=Joann Inc.    0.07230766364927613
+    Attrib Company=Johnson & Johnson    0.04091141909826231
+    Attrib Company=Kohl's    0.019890959130371446
+    Attrib Company=Lockheed Martin    0.02343929288483343
+    Attrib Company=Lowe's    0.059466429549699724
+    Attrib Company=Lyondell Chemical    -0.006638680181477334
+    Attrib Company=Macy's    0.11792816300304326
+    Attrib Company=Nordstrom    0.03212716786565999
+    Attrib Company=Novum Pharma    0.0865793431334777
+    Attrib Company=Party City    0.003434006655639196
+    Attrib Company=Payless ShoeSource    0.08945172100275069
+    Attrib Company=Pfizer    0.12226465229125885
+    Attrib Company=Pier 1 Imports    0.03030583282739519
+    Attrib Company=Quorum Health    -0.021578876310895286
+    Attrib Company=Remington Outdoor    -0.0016808013984746443
+    Attrib Company=Sears Holdings    0.08878967036322158
+    Attrib Company=Target    0.09702212590810824
+    Attrib Company=Toys R Us    0.0778025583529496
+    Attrib Company=UnitedHealth Group    0.0944309170721633
+    Attrib Company=Walmart    0.11645924764742291
+    Attrib Company=Westinghouse Electric    0.009230996614033543
+    Attrib CMR    -0.021789278221950235
+    Attrib Op_Leverage    0.05531858101073555
+    Attrib Fin_Leverage    0.10154461350756289
+    Attrib Cash_Ratio    0.05383323914834913
+    Attrib Debt_to_Equity    0.005278150566542316
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.05013821332997052
+    Attrib Company=3M Company    0.03823030995672598
+    Attrib Company=Abbott Laboratories    0.04817565966853222
+    Attrib Company=American Medical Systems    0.08281197242661723
+    Attrib Company=Amgen    0.01849702273250183
+    Attrib Company=Avadel Pharmaceuticals    0.08985817475358165
+    Attrib Company=Bed Bath & Beyond    0.08364416788313328
+    Attrib Company=Best Buy    0.06568453725864001
+    Attrib Company=Calpine Corporation    0.09870793102472598
+    Attrib Company=Caterpillar    0.08612727189511628
+    Attrib Company=Claire's Stores    0.043196795603846073
+    Attrib Company=Costco    0.07058303748411787
+    Attrib Company=Deere & Company    0.06875791723546887
+    Attrib Company=Dollar General    0.08832502119315852
+    Attrib Company=Endo International    0.05394286617567946
+    Attrib Company=Forever 21    0.05825857603364222
+    Attrib Company=General Motors    0.0633273106976754
+    Attrib Company=Home Depot    0.090381045078869
+    Attrib Company=Honeywell Intl.    -0.008261655060521112
+    Attrib Company=JCPenney    0.0275672725376698
+    Attrib Company=Joann Inc.    0.08137671678412646
+    Attrib Company=Johnson & Johnson    0.06748921299429153
+    Attrib Company=Kohl's    0.04975409739764142
+    Attrib Company=Lockheed Martin    0.08180047193390369
+    Attrib Company=Lowe's    0.08984336667514749
+    Attrib Company=Lyondell Chemical    0.08541571717783761
+    Attrib Company=Macy's    0.043277931552126656
+    Attrib Company=Nordstrom    0.03177531716242332
+    Attrib Company=Novum Pharma    0.04494761000524522
+    Attrib Company=Party City    0.09949292698930436
+    Attrib Company=Payless ShoeSource    0.03377455352095875
+    Attrib Company=Pfizer    0.07006690239086084
+    Attrib Company=Pier 1 Imports    0.08635424092327923
+    Attrib Company=Quorum Health    0.023539334164018752
+    Attrib Company=Remington Outdoor    0.044077417601860874
+    Attrib Company=Sears Holdings    0.09048382935635764
+    Attrib Company=Target    0.014275771449078923
+    Attrib Company=Toys R Us    0.049166499138233184
+    Attrib Company=UnitedHealth Group    0.07462256679772761
+    Attrib Company=Walmart    0.09264474031795518
+    Attrib Company=Westinghouse Electric    0.09435083333071424
+    Attrib CMR    0.013607699326035887
+    Attrib Op_Leverage    0.02506882976748466
+    Attrib Fin_Leverage    -0.015015031025851848
+    Attrib Cash_Ratio    -0.023586121813994297
+    Attrib Debt_to_Equity    0.04844358524338472
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.06490043278187227
+    Attrib Company=3M Company    0.07507072596376538
+    Attrib Company=Abbott Laboratories    0.11266901296116846
+    Attrib Company=American Medical Systems    -0.11711632809605298
+    Attrib Company=Amgen    0.05629743255788325
+    Attrib Company=Avadel Pharmaceuticals    -0.20682573629480105
+    Attrib Company=Bed Bath & Beyond    -0.03413446457536364
+    Attrib Company=Best Buy    0.13762739298748752
+    Attrib Company=Calpine Corporation    -0.16452468137773615
+    Attrib Company=Caterpillar    0.1020711091329892
+    Attrib Company=Claire's Stores    -0.05466223507776544
+    Attrib Company=Costco    0.12247515693348666
+    Attrib Company=Deere & Company    0.13467822313315062
+    Attrib Company=Dollar General    0.10973066561611396
+    Attrib Company=Endo International    -0.04536006231259904
+    Attrib Company=Forever 21    -0.06863300406874738
+    Attrib Company=General Motors    -0.06406082500034717
+    Attrib Company=Home Depot    0.1409196955065298
+    Attrib Company=Honeywell Intl.    0.07797536858053267
+    Attrib Company=JCPenney    -0.020611943973799784
+    Attrib Company=Joann Inc.    -0.08614520536410195
+    Attrib Company=Johnson & Johnson    0.04953008373699602
+    Attrib Company=Kohl's    0.08943656518782345
+    Attrib Company=Lockheed Martin    0.09914464220030726
+    Attrib Company=Lowe's    0.1604795392904259
+    Attrib Company=Lyondell Chemical    -0.03398259428173232
+    Attrib Company=Macy's    0.1624485830565369
+    Attrib Company=Nordstrom    0.06475911182479178
+    Attrib Company=Novum Pharma    -0.05457544233112071
+    Attrib Company=Party City    -0.06644017754317409
+    Attrib Company=Payless ShoeSource    -0.03424223339987286
+    Attrib Company=Pfizer    0.05115054519901426
+    Attrib Company=Pier 1 Imports    -0.1069325577605925
+    Attrib Company=Quorum Health    -0.14990384952150373
+    Attrib Company=Remington Outdoor    -0.07083667899574836
+    Attrib Company=Sears Holdings    -0.0696312626778988
+    Attrib Company=Target    0.04268899397986795
+    Attrib Company=Toys R Us    -0.08682771918189819
+    Attrib Company=UnitedHealth Group    0.07983256339151167
+    Attrib Company=Walmart    0.1375558933582633
+    Attrib Company=Westinghouse Electric    -0.07861039435892872
+    Attrib CMR    0.11659142730356364
+    Attrib Op_Leverage    0.24728447030702225
+    Attrib Fin_Leverage    0.17516696614132612
+    Attrib Cash_Ratio    0.02831205056452253
+    Attrib Debt_to_Equity    4.913388513552144E-4
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.05461627043265922
+    Attrib Company=3M Company    0.12706570841893625
+    Attrib Company=Abbott Laboratories    0.11362826948961777
+    Attrib Company=American Medical Systems    -0.047470705585186325
+    Attrib Company=Amgen    0.05529387068855359
+    Attrib Company=Avadel Pharmaceuticals    -0.02899451476134987
+    Attrib Company=Bed Bath & Beyond    0.032744446765625955
+    Attrib Company=Best Buy    0.08581028073458451
+    Attrib Company=Calpine Corporation    0.028700975477861997
+    Attrib Company=Caterpillar    0.12463653625089574
+    Attrib Company=Claire's Stores    0.012418335608920902
+    Attrib Company=Costco    0.1457211110902687
+    Attrib Company=Deere & Company    0.04000649741256692
+    Attrib Company=Dollar General    0.10007870732083433
+    Attrib Company=Endo International    -0.023701500831351453
+    Attrib Company=Forever 21    0.03645057685986815
+    Attrib Company=General Motors    0.031565474274518536
+    Attrib Company=Home Depot    0.11013318067637673
+    Attrib Company=Honeywell Intl.    0.09703373536723398
+    Attrib Company=JCPenney    0.004935050658206061
+    Attrib Company=Joann Inc.    0.0050793694271686375
+    Attrib Company=Johnson & Johnson    0.027804839247435688
+    Attrib Company=Kohl's    0.02223527476309116
+    Attrib Company=Lockheed Martin    0.07417397366222445
+    Attrib Company=Lowe's    0.10938543605976993
+    Attrib Company=Lyondell Chemical    -0.0032082742938692953
+    Attrib Company=Macy's    0.06738397669235242
+    Attrib Company=Nordstrom    0.12126205674726898
+    Attrib Company=Novum Pharma    -0.031396016013931785
+    Attrib Company=Party City    -0.006826083676228419
+    Attrib Company=Payless ShoeSource    -0.007778286139240017
+    Attrib Company=Pfizer    0.11402835891692599
+    Attrib Company=Pier 1 Imports    -0.03524943354952832
+    Attrib Company=Quorum Health    -0.003165623480849634
+    Attrib Company=Remington Outdoor    0.014060236191150152
+    Attrib Company=Sears Holdings    0.041508455934494703
+    Attrib Company=Target    0.08424397650030195
+    Attrib Company=Toys R Us    -0.0066117648730759405
+    Attrib Company=UnitedHealth Group    0.06545216761090154
+    Attrib Company=Walmart    0.085871519650739
+    Attrib Company=Westinghouse Electric    -0.02225809248071631
+    Attrib CMR    0.021923156253548848
+    Attrib Op_Leverage    0.13496163004507464
+    Attrib Fin_Leverage    0.06164106007082328
+    Attrib Cash_Ratio    0.03344727196494096
+    Attrib Debt_to_Equity    0.008749260582376753
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.010521343082691384
+    Attrib Company=3M Company    0.19641967160958548
+    Attrib Company=Abbott Laboratories    0.17411354991216813
+    Attrib Company=American Medical Systems    -0.20888175929313169
+    Attrib Company=Amgen    0.12669413600857704
+    Attrib Company=Avadel Pharmaceuticals    -0.3673493035330582
+    Attrib Company=Bed Bath & Beyond    -0.14070367963185645
+    Attrib Company=Best Buy    0.1921560361484323
+    Attrib Company=Calpine Corporation    -0.29741420722773765
+    Attrib Company=Caterpillar    0.1824932405424664
+    Attrib Company=Claire's Stores    -0.16277303116888892
+    Attrib Company=Costco    0.2540683425700553
+    Attrib Company=Deere & Company    0.23064463965517848
+    Attrib Company=Dollar General    0.18366529007743448
+    Attrib Company=Endo International    -0.14434323045283473
+    Attrib Company=Forever 21    -0.20542287256475356
+    Attrib Company=General Motors    -0.11668297775881421
+    Attrib Company=Home Depot    0.1210949600542789
+    Attrib Company=Honeywell Intl.    0.13254743447283382
+    Attrib Company=JCPenney    -0.1153134066811697
+    Attrib Company=Joann Inc.    -0.1914576580081419
+    Attrib Company=Johnson & Johnson    0.17587538410873413
+    Attrib Company=Kohl's    0.17589249504657165
+    Attrib Company=Lockheed Martin    0.20114171890773003
+    Attrib Company=Lowe's    0.31100325315631144
+    Attrib Company=Lyondell Chemical    -0.10964818754509366
+    Attrib Company=Macy's    0.21706816666038556
+    Attrib Company=Nordstrom    0.15796240725784624
+    Attrib Company=Novum Pharma    -0.23772138310106947
+    Attrib Company=Party City    -0.07491978095821596
+    Attrib Company=Payless ShoeSource    -0.1391944213414332
+    Attrib Company=Pfizer    0.15844514723183342
+    Attrib Company=Pier 1 Imports    -0.17889287146576324
+    Attrib Company=Quorum Health    -0.3145059846325018
+    Attrib Company=Remington Outdoor    -0.24497759902789634
+    Attrib Company=Sears Holdings    -0.08718522532499737
+    Attrib Company=Target    0.06255220234270034
+    Attrib Company=Toys R Us    -0.07095780897889245
+    Attrib Company=UnitedHealth Group    0.1385316426916399
+    Attrib Company=Walmart    0.2361191583129449
+    Attrib Company=Westinghouse Electric    -0.05675424394464933
+    Attrib CMR    0.1809278496574122
+    Attrib Op_Leverage    0.46086639093197473
+    Attrib Fin_Leverage    0.18237339315509996
+    Attrib Cash_Ratio    0.0629657751933692
+    Attrib Debt_to_Equity    0.06619363409966447
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.04464780648965976
+    Attrib Company=3M Company    -0.13561036169348348
+    Attrib Company=Abbott Laboratories    -0.17397406674181717
+    Attrib Company=American Medical Systems    0.1132512462433598
+    Attrib Company=Amgen    -0.09040751733896464
+    Attrib Company=Avadel Pharmaceuticals    0.12459271959131907
+    Attrib Company=Bed Bath & Beyond    0.0909651589068798
+    Attrib Company=Best Buy    -0.1595470103404548
+    Attrib Company=Calpine Corporation    0.154618930051289
+    Attrib Company=Caterpillar    -0.10642239708632967
+    Attrib Company=Claire's Stores    0.10762676387715002
+    Attrib Company=Costco    -0.15213400437417515
+    Attrib Company=Deere & Company    -0.14404508888473358
+    Attrib Company=Dollar General    -0.09587019034161721
+    Attrib Company=Endo International    0.15513809788360672
+    Attrib Company=Forever 21    0.11253529633158676
+    Attrib Company=General Motors    0.04665339587152249
+    Attrib Company=Home Depot    -0.026565607050006275
+    Attrib Company=Honeywell Intl.    -0.0953568719084147
+    Attrib Company=JCPenney    0.04723307909893285
+    Attrib Company=Joann Inc.    0.13275386829729516
+    Attrib Company=Johnson & Johnson    -0.14305489644143726
+    Attrib Company=Kohl's    -0.056534640756798454
+    Attrib Company=Lockheed Martin    -0.1409355124914281
+    Attrib Company=Lowe's    -0.11492767557369667
+    Attrib Company=Lyondell Chemical    0.08202417025598321
+    Attrib Company=Macy's    -0.12204387050329084
+    Attrib Company=Nordstrom    -0.1575557990018512
+    Attrib Company=Novum Pharma    0.1640469110641444
+    Attrib Company=Party City    0.10580392990591922
+    Attrib Company=Payless ShoeSource    0.13209256021023214
+    Attrib Company=Pfizer    -0.1010561198560996
+    Attrib Company=Pier 1 Imports    0.10456752834778357
+    Attrib Company=Quorum Health    0.15698785635378407
+    Attrib Company=Remington Outdoor    0.12727634374407876
+    Attrib Company=Sears Holdings    0.07789103960421805
+    Attrib Company=Target    -0.07371735918392328
+    Attrib Company=Toys R Us    0.032752141924288686
+    Attrib Company=UnitedHealth Group    -0.13932965540738865
+    Attrib Company=Walmart    -0.11723904600382333
+    Attrib Company=Westinghouse Electric    0.12625029853125336
+    Attrib CMR    -0.17022814407840717
+    Attrib Op_Leverage    -0.2654191630281638
+    Attrib Fin_Leverage    -0.13063829606874083
+    Attrib Cash_Ratio    -0.102481676179802
+    Attrib Debt_to_Equity    0.01717164959392753
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.0030750034126365913
+    Attrib Company=3M Company    0.29018523943466573
+    Attrib Company=Abbott Laboratories    0.34870282854702683
+    Attrib Company=American Medical Systems    -0.4946012877841835
+    Attrib Company=Amgen    0.15723493193559376
+    Attrib Company=Avadel Pharmaceuticals    -0.6838510669333242
+    Attrib Company=Bed Bath & Beyond    -0.26834848480126156
+    Attrib Company=Best Buy    0.37190749259438305
+    Attrib Company=Calpine Corporation    -0.5402009119787964
+    Attrib Company=Caterpillar    0.3894272719124464
+    Attrib Company=Claire's Stores    -0.2904958197411543
+    Attrib Company=Costco    0.42494780197139054
+    Attrib Company=Deere & Company    0.3795448384084406
+    Attrib Company=Dollar General    0.35583704831121105
+    Attrib Company=Endo International    -0.32554459606965375
+    Attrib Company=Forever 21    -0.36756851019893566
+    Attrib Company=General Motors    -0.1986632823287496
+    Attrib Company=Home Depot    0.25407114292120125
+    Attrib Company=Honeywell Intl.    0.31408966292053037
+    Attrib Company=JCPenney    -0.20890022584947482
+    Attrib Company=Joann Inc.    -0.38304923632855287
+    Attrib Company=Johnson & Johnson    0.27058147224545276
+    Attrib Company=Kohl's    0.2638695547698649
+    Attrib Company=Lockheed Martin    0.3646330507724304
+    Attrib Company=Lowe's    0.5170480172381656
+    Attrib Company=Lyondell Chemical    -0.21380595522620205
+    Attrib Company=Macy's    0.3729980368184463
+    Attrib Company=Nordstrom    0.2697635480670214
+    Attrib Company=Novum Pharma    -0.3480028112112401
+    Attrib Company=Party City    -0.16751619976950252
+    Attrib Company=Payless ShoeSource    -0.20737639034609426
+    Attrib Company=Pfizer    0.27474583590093815
+    Attrib Company=Pier 1 Imports    -0.33558837269193853
+    Attrib Company=Quorum Health    -0.5592278230216101
+    Attrib Company=Remington Outdoor    -0.3779161154459216
+    Attrib Company=Sears Holdings    -0.18618059873966042
+    Attrib Company=Target    0.2041161266507296
+    Attrib Company=Toys R Us    -0.11402741138252137
+    Attrib Company=UnitedHealth Group    0.2919098801763428
+    Attrib Company=Walmart    0.37251794937372207
+    Attrib Company=Westinghouse Electric    -0.14678976148855868
+    Attrib CMR    0.3180701293439323
+    Attrib Op_Leverage    0.8185947982396473
+    Attrib Fin_Leverage    0.4009911761522351
+    Attrib Cash_Ratio    0.09002554647809428
+    Attrib Debt_to_Equity    7.360674819889146E-4
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.07899824075145251
+    Attrib Company=3M Company    0.11116684041503315
+    Attrib Company=Abbott Laboratories    0.0838297282817879
+    Attrib Company=American Medical Systems    -0.014747434215774614
+    Attrib Company=Amgen    0.10524303979591246
+    Attrib Company=Avadel Pharmaceuticals    -0.06068777353130683
+    Attrib Company=Bed Bath & Beyond    0.048399546249013395
+    Attrib Company=Best Buy    0.04231386336568773
+    Attrib Company=Calpine Corporation    -0.03229435309993517
+    Attrib Company=Caterpillar    0.040485292846261504
+    Attrib Company=Claire's Stores    0.0072250364797944635
+    Attrib Company=Costco    0.13397619135623717
+    Attrib Company=Deere & Company    0.042347317863952946
+    Attrib Company=Dollar General    0.0891195908437956
+    Attrib Company=Endo International    0.025544491861152714
+    Attrib Company=Forever 21    0.02896658472998829
+    Attrib Company=General Motors    0.04596797043310232
+    Attrib Company=Home Depot    0.13283289780213356
+    Attrib Company=Honeywell Intl.    0.04976069981802504
+    Attrib Company=JCPenney    0.051169811711137665
+    Attrib Company=Joann Inc.    -0.03924483278382682
+    Attrib Company=Johnson & Johnson    0.0663909465357052
+    Attrib Company=Kohl's    0.07123110556838562
+    Attrib Company=Lockheed Martin    0.03878583100049423
+    Attrib Company=Lowe's    0.06028461185127818
+    Attrib Company=Lyondell Chemical    -0.00960793256024798
+    Attrib Company=Macy's    0.08129432839236281
+    Attrib Company=Nordstrom    0.09361597334926279
+    Attrib Company=Novum Pharma    -0.005095902704131223
+    Attrib Company=Party City    0.04981246864320799
+    Attrib Company=Payless ShoeSource    0.056716881729131516
+    Attrib Company=Pfizer    0.13059979536698293
+    Attrib Company=Pier 1 Imports    0.04067553696050442
+    Attrib Company=Quorum Health    -0.07450452952252633
+    Attrib Company=Remington Outdoor    -0.06269379442744186
+    Attrib Company=Sears Holdings    -0.004844174935541259
+    Attrib Company=Target    0.061515712930296326
+    Attrib Company=Toys R Us    0.04098169592791217
+    Attrib Company=UnitedHealth Group    0.0922023313085826
+    Attrib Company=Walmart    0.06694420320293995
+    Attrib Company=Westinghouse Electric    0.04933482603591809
+    Attrib CMR    0.03961606898903203
+    Attrib Op_Leverage    0.1501177053784209
+    Attrib Fin_Leverage    0.1148033469171293
+    Attrib Cash_Ratio    0.050615382433929386
+    Attrib Debt_to_Equity    0.06225953097803398
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.017794931207972136
+    Attrib Company=3M Company    0.41835371204925303
+    Attrib Company=Abbott Laboratories    0.5235898224271947
+    Attrib Company=American Medical Systems    -0.6650635452335735
+    Attrib Company=Amgen    0.2572424113810447
+    Attrib Company=Avadel Pharmaceuticals    -0.9038228726026305
+    Attrib Company=Bed Bath & Beyond    -0.3726756743856423
+    Attrib Company=Best Buy    0.5597951752010909
+    Attrib Company=Calpine Corporation    -0.7714534938335376
+    Attrib Company=Caterpillar    0.45706132672046745
+    Attrib Company=Claire's Stores    -0.3546434608449892
+    Attrib Company=Costco    0.5624937108646578
+    Attrib Company=Deere & Company    0.4978410157516257
+    Attrib Company=Dollar General    0.5055204233329189
+    Attrib Company=Endo International    -0.4391674996098996
+    Attrib Company=Forever 21    -0.47344310951116086
+    Attrib Company=General Motors    -0.2893429944398103
+    Attrib Company=Home Depot    0.3780782405123392
+    Attrib Company=Honeywell Intl.    0.35493578830954936
+    Attrib Company=JCPenney    -0.2856012159417381
+    Attrib Company=Joann Inc.    -0.45834050251652253
+    Attrib Company=Johnson & Johnson    0.37981037177446175
+    Attrib Company=Kohl's    0.306786509525345
+    Attrib Company=Lockheed Martin    0.5516870620995021
+    Attrib Company=Lowe's    0.5932716834731959
+    Attrib Company=Lyondell Chemical    -0.30163756513640166
+    Attrib Company=Macy's    0.43519601593649565
+    Attrib Company=Nordstrom    0.43851761219158997
+    Attrib Company=Novum Pharma    -0.5374163573158601
+    Attrib Company=Party City    -0.30187210451484575
+    Attrib Company=Payless ShoeSource    -0.27356056178320187
+    Attrib Company=Pfizer    0.34165993010405654
+    Attrib Company=Pier 1 Imports    -0.4527643721574335
+    Attrib Company=Quorum Health    -0.711579391236108
+    Attrib Company=Remington Outdoor    -0.5213026987230781
+    Attrib Company=Sears Holdings    -0.19425504089991902
+    Attrib Company=Target    0.23916350098901165
+    Attrib Company=Toys R Us    -0.14932342653518138
+    Attrib Company=UnitedHealth Group    0.40580746899307596
+    Attrib Company=Walmart    0.5146423377472064
+    Attrib Company=Westinghouse Electric    -0.2690796090349639
+    Attrib CMR    0.41166241730404013
+    Attrib Op_Leverage    1.0791159036629514
+    Attrib Fin_Leverage    0.5084318512966566
+    Attrib Cash_Ratio    0.15473915068974378
+    Attrib Debt_to_Equity    -0.0015320265933795967
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.013724497378124886
+    Attrib Company=3M Company    0.3468286012212901
+    Attrib Company=Abbott Laboratories    0.4676507163639592
+    Attrib Company=American Medical Systems    -0.5318503185714624
+    Attrib Company=Amgen    0.14168639484598966
+    Attrib Company=Avadel Pharmaceuticals    -0.7238911369346734
+    Attrib Company=Bed Bath & Beyond    -0.37178046900296835
+    Attrib Company=Best Buy    0.40446966703863363
+    Attrib Company=Calpine Corporation    -0.6270996204426802
+    Attrib Company=Caterpillar    0.3501500983828586
+    Attrib Company=Claire's Stores    -0.2564211286219574
+    Attrib Company=Costco    0.456239681604778
+    Attrib Company=Deere & Company    0.4021857966505356
+    Attrib Company=Dollar General    0.4112384863332086
+    Attrib Company=Endo International    -0.35665946612523625
+    Attrib Company=Forever 21    -0.3859348988368952
+    Attrib Company=General Motors    -0.22510960711210956
+    Attrib Company=Home Depot    0.28494140983879573
+    Attrib Company=Honeywell Intl.    0.294055531027088
+    Attrib Company=JCPenney    -0.2137956865753549
+    Attrib Company=Joann Inc.    -0.40056899533711815
+    Attrib Company=Johnson & Johnson    0.2651929831011794
+    Attrib Company=Kohl's    0.26333622271170926
+    Attrib Company=Lockheed Martin    0.4054918460664819
+    Attrib Company=Lowe's    0.5306733761374481
+    Attrib Company=Lyondell Chemical    -0.2602165090637958
+    Attrib Company=Macy's    0.40007259936276696
+    Attrib Company=Nordstrom    0.3877846218647635
+    Attrib Company=Novum Pharma    -0.4431852756258995
+    Attrib Company=Party City    -0.206698086861226
+    Attrib Company=Payless ShoeSource    -0.2214701629236152
+    Attrib Company=Pfizer    0.30630815521233734
+    Attrib Company=Pier 1 Imports    -0.3401114319182934
+    Attrib Company=Quorum Health    -0.613196745630224
+    Attrib Company=Remington Outdoor    -0.41368149385396885
+    Attrib Company=Sears Holdings    -0.1829014428269559
+    Attrib Company=Target    0.21584400792424904
+    Attrib Company=Toys R Us    -0.15365972912865236
+    Attrib Company=UnitedHealth Group    0.42103077576718223
+    Attrib Company=Walmart    0.41593971610386987
+    Attrib Company=Westinghouse Electric    -0.16687056116040389
+    Attrib CMR    0.34544446490789926
+    Attrib Op_Leverage    0.9214731625972025
+    Attrib Fin_Leverage    0.4316977718791773
+    Attrib Cash_Ratio    0.07474634189049782
+    Attrib Debt_to_Equity    0.04497711570989814
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.049447567534696125
+    Attrib Company=3M Company    0.33131103132666245
+    Attrib Company=Abbott Laboratories    0.5123229446801904
+    Attrib Company=American Medical Systems    -0.5862519716424973
+    Attrib Company=Amgen    0.1672451425812623
+    Attrib Company=Avadel Pharmaceuticals    -0.8755206161853247
+    Attrib Company=Bed Bath & Beyond    -0.4003267513355908
+    Attrib Company=Best Buy    0.4988572397539931
+    Attrib Company=Calpine Corporation    -0.7255888777717987
+    Attrib Company=Caterpillar    0.42878652698083286
+    Attrib Company=Claire's Stores    -0.2998291542688581
+    Attrib Company=Costco    0.4890924293803523
+    Attrib Company=Deere & Company    0.42019482221940524
+    Attrib Company=Dollar General    0.460954647286559
+    Attrib Company=Endo International    -0.3770931701262742
+    Attrib Company=Forever 21    -0.44185197273224897
+    Attrib Company=General Motors    -0.2624684130768335
+    Attrib Company=Home Depot    0.3129580984133535
+    Attrib Company=Honeywell Intl.    0.40263504152240465
+    Attrib Company=JCPenney    -0.27605124652743684
+    Attrib Company=Joann Inc.    -0.4762237366664165
+    Attrib Company=Johnson & Johnson    0.332621239806386
+    Attrib Company=Kohl's    0.3436114657346846
+    Attrib Company=Lockheed Martin    0.4963065112208279
+    Attrib Company=Lowe's    0.5302020569323502
+    Attrib Company=Lyondell Chemical    -0.27849596907433966
+    Attrib Company=Macy's    0.4006074267103744
+    Attrib Company=Nordstrom    0.42688279542337704
+    Attrib Company=Novum Pharma    -0.49390238732686986
+    Attrib Company=Party City    -0.23367350802804146
+    Attrib Company=Payless ShoeSource    -0.2311296252965316
+    Attrib Company=Pfizer    0.34891428460534846
+    Attrib Company=Pier 1 Imports    -0.41453695799828144
+    Attrib Company=Quorum Health    -0.6688612164714628
+    Attrib Company=Remington Outdoor    -0.4697106982407082
+    Attrib Company=Sears Holdings    -0.22026082726858387
+    Attrib Company=Target    0.22581711081252367
+    Attrib Company=Toys R Us    -0.14347752159882984
+    Attrib Company=UnitedHealth Group    0.41199188981553475
+    Attrib Company=Walmart    0.5024151912758562
+    Attrib Company=Westinghouse Electric    -0.225394815936492
+    Attrib CMR    0.38121421768749914
+    Attrib Op_Leverage    0.9701426899309403
+    Attrib Fin_Leverage    0.48367361657095737
+    Attrib Cash_Ratio    0.15004986133053833
+    Attrib Debt_to_Equity    0.042032416760361825
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.043565975053822995
+    Attrib Company=3M Company    0.12529774357482318
+    Attrib Company=Abbott Laboratories    0.07390477848077476
+    Attrib Company=American Medical Systems    -0.08224768634289824
+    Attrib Company=Amgen    0.07695937294567613
+    Attrib Company=Avadel Pharmaceuticals    -0.11060436464374221
+    Attrib Company=Bed Bath & Beyond    -0.01613816676012323
+    Attrib Company=Best Buy    0.1338009377870696
+    Attrib Company=Calpine Corporation    -0.04941421753220682
+    Attrib Company=Caterpillar    0.05704720642911823
+    Attrib Company=Claire's Stores    -0.03363583155175263
+    Attrib Company=Costco    0.07907716419500514
+    Attrib Company=Deere & Company    0.12037662680354796
+    Attrib Company=Dollar General    0.09971322914300847
+    Attrib Company=Endo International    -0.00511996057638943
+    Attrib Company=Forever 21    -0.007913414614580836
+    Attrib Company=General Motors    -0.018914839116710325
+    Attrib Company=Home Depot    0.11470267718315309
+    Attrib Company=Honeywell Intl.    0.08152394353300896
+    Attrib Company=JCPenney    -0.05207013585488379
+    Attrib Company=Joann Inc.    -0.007646133387499159
+    Attrib Company=Johnson & Johnson    0.09466897485013981
+    Attrib Company=Kohl's    0.11666050837301367
+    Attrib Company=Lockheed Martin    0.0662514544822655
+    Attrib Company=Lowe's    0.07512908383257957
+    Attrib Company=Lyondell Chemical    -0.0415094438069281
+    Attrib Company=Macy's    0.06115562592997886
+    Attrib Company=Nordstrom    0.05819725388383203
+    Attrib Company=Novum Pharma    -0.0645701022568626
+    Attrib Company=Party City    -0.01635809287787527
+    Attrib Company=Payless ShoeSource    -0.024283184637781525
+    Attrib Company=Pfizer    0.0866204722069881
+    Attrib Company=Pier 1 Imports    6.178922833851759E-4
+    Attrib Company=Quorum Health    -0.056584785218908286
+    Attrib Company=Remington Outdoor    -0.07394942955594877
+    Attrib Company=Sears Holdings    -0.03603892503413539
+    Attrib Company=Target    0.07560346250315197
+    Attrib Company=Toys R Us    0.022088756939167127
+    Attrib Company=UnitedHealth Group    0.10870395752480182
+    Attrib Company=Walmart    0.14435351478817757
+    Attrib Company=Westinghouse Electric    -0.02512557304862484
+    Attrib CMR    0.06299721732987511
+    Attrib Op_Leverage    0.13356785715525948
+    Attrib Fin_Leverage    0.11341520930462981
+    Attrib Cash_Ratio    -0.019974962788318503
+    Attrib Debt_to_Equity    0.022960755012106412
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.0887528891473296
+    Attrib Company=3M Company    0.029411203492529757
+    Attrib Company=Abbott Laboratories    0.0650812035567332
+    Attrib Company=American Medical Systems    0.0491855470835143
+    Attrib Company=Amgen    0.06100073537092128
+    Attrib Company=Avadel Pharmaceuticals    0.018609360411438135
+    Attrib Company=Bed Bath & Beyond    0.05197970195097433
+    Attrib Company=Best Buy    0.03550158670533319
+    Attrib Company=Calpine Corporation    0.12732875215979736
+    Attrib Company=Caterpillar    0.03554983255118848
+    Attrib Company=Claire's Stores    0.10732079879113238
+    Attrib Company=Costco    0.0767985423850433
+    Attrib Company=Deere & Company    0.04502977536360763
+    Attrib Company=Dollar General    0.10776982424095652
+    Attrib Company=Endo International    0.08269869001127751
+    Attrib Company=Forever 21    0.10190374454431644
+    Attrib Company=General Motors    0.07096077273182055
+    Attrib Company=Home Depot    0.06255055795130722
+    Attrib Company=Honeywell Intl.    0.014664718051242911
+    Attrib Company=JCPenney    0.08180291247414889
+    Attrib Company=Joann Inc.    0.03624549441063287
+    Attrib Company=Johnson & Johnson    0.0011461384331020491
+    Attrib Company=Kohl's    0.021925822869808955
+    Attrib Company=Lockheed Martin    0.022828373081638452
+    Attrib Company=Lowe's    0.06881508090995919
+    Attrib Company=Lyondell Chemical    0.028594128862488598
+    Attrib Company=Macy's    0.09677879124304968
+    Attrib Company=Nordstrom    0.028198454132758826
+    Attrib Company=Novum Pharma    0.09043946012947059
+    Attrib Company=Party City    0.08250249202298483
+    Attrib Company=Payless ShoeSource    0.1135532754046756
+    Attrib Company=Pfizer    0.053046859152961943
+    Attrib Company=Pier 1 Imports    0.045027226754003245
+    Attrib Company=Quorum Health    0.07291332470149287
+    Attrib Company=Remington Outdoor    0.018738407179024776
+    Attrib Company=Sears Holdings    0.05084271692941486
+    Attrib Company=Target    0.018468718778031266
+    Attrib Company=Toys R Us    0.09735568187647262
+    Attrib Company=UnitedHealth Group    0.03997104385485953
+    Attrib Company=Walmart    0.046308227284313865
+    Attrib Company=Westinghouse Electric    0.07412067653860584
+    Attrib CMR    -0.058270124017781366
+    Attrib Op_Leverage    0.010859633915696247
+    Attrib Fin_Leverage    -0.043467614823281826
+    Attrib Cash_Ratio    0.035367355483761624
+    Attrib Debt_to_Equity    -0.002478025478115871
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.05339342254053135
+    Attrib Company=3M Company    0.06273279295373088
+    Attrib Company=Abbott Laboratories    0.08484615889893435
+    Attrib Company=American Medical Systems    0.1029108268813731
+    Attrib Company=Amgen    0.016682678116191795
+    Attrib Company=Avadel Pharmaceuticals    0.05890925344853158
+    Attrib Company=Bed Bath & Beyond    0.056170634472826046
+    Attrib Company=Best Buy    0.0651912480838938
+    Attrib Company=Calpine Corporation    0.03684814928823718
+    Attrib Company=Caterpillar    0.03594597779370833
+    Attrib Company=Claire's Stores    0.10889855050932822
+    Attrib Company=Costco    0.1081315381388559
+    Attrib Company=Deere & Company    0.0471241941529879
+    Attrib Company=Dollar General    0.09879846923443035
+    Attrib Company=Endo International    0.03785891661212433
+    Attrib Company=Forever 21    0.04698565116403912
+    Attrib Company=General Motors    0.036946980094971715
+    Attrib Company=Home Depot    0.09511312373324159
+    Attrib Company=Honeywell Intl.    0.0701966641749804
+    Attrib Company=JCPenney    0.03092346141391165
+    Attrib Company=Joann Inc.    0.061814872668163205
+    Attrib Company=Johnson & Johnson    0.0783128092213235
+    Attrib Company=Kohl's    0.017918864552066382
+    Attrib Company=Lockheed Martin    0.06898127748050362
+    Attrib Company=Lowe's    0.12958094465118403
+    Attrib Company=Lyondell Chemical    0.06947316079905991
+    Attrib Company=Macy's    0.04454113285952664
+    Attrib Company=Nordstrom    0.07782608837587135
+    Attrib Company=Novum Pharma    0.056118334650647785
+    Attrib Company=Party City    0.09493748995201186
+    Attrib Company=Payless ShoeSource    0.10525624460868291
+    Attrib Company=Pfizer    0.05492169349360437
+    Attrib Company=Pier 1 Imports    0.06044978900722507
+    Attrib Company=Quorum Health    0.001471166597232952
+    Attrib Company=Remington Outdoor    0.010385139129219456
+    Attrib Company=Sears Holdings    0.030236729521551473
+    Attrib Company=Target    0.04848412481553088
+    Attrib Company=Toys R Us    0.032291810174450014
+    Attrib Company=UnitedHealth Group    0.0975197686127543
+    Attrib Company=Walmart    0.05598883040518093
+    Attrib Company=Westinghouse Electric    0.10680177224224754
+    Attrib CMR    -0.044425739468419975
+    Attrib Op_Leverage    -0.018882313893099533
+    Attrib Fin_Leverage    0.003036865625568059
+    Attrib Cash_Ratio    0.03053602667517567
+    Attrib Debt_to_Equity    -0.015979432589681215
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.046200948058045026
+    Attrib Company=3M Company    0.041591111286639455
+    Attrib Company=Abbott Laboratories    0.04492384478852154
+    Attrib Company=American Medical Systems    0.05390572932504833
+    Attrib Company=Amgen    0.06390328486397788
+    Attrib Company=Avadel Pharmaceuticals    0.01605605329819255
+    Attrib Company=Bed Bath & Beyond    0.061391533937008656
+    Attrib Company=Best Buy    0.10607672811668668
+    Attrib Company=Calpine Corporation    0.059184358139455696
+    Attrib Company=Caterpillar    0.12562268411840005
+    Attrib Company=Claire's Stores    0.06384230561355654
+    Attrib Company=Costco    0.04690311445764246
+    Attrib Company=Deere & Company    0.05661944996503925
+    Attrib Company=Dollar General    0.05714486811225534
+    Attrib Company=Endo International    0.033442739647717025
+    Attrib Company=Forever 21    0.02507302731123951
+    Attrib Company=General Motors    0.08473840070946007
+    Attrib Company=Home Depot    0.09058196144763887
+    Attrib Company=Honeywell Intl.    0.04538427853404735
+    Attrib Company=JCPenney    -0.0025279525860743587
+    Attrib Company=Joann Inc.    0.020567088262854968
+    Attrib Company=Johnson & Johnson    0.08111959290170659
+    Attrib Company=Kohl's    0.10362612579587108
+    Attrib Company=Lockheed Martin    0.07718493797362903
+    Attrib Company=Lowe's    0.0874541744177634
+    Attrib Company=Lyondell Chemical    0.015408346732458382
+    Attrib Company=Macy's    0.11030028003471505
+    Attrib Company=Nordstrom    0.07508056145496347
+    Attrib Company=Novum Pharma    0.03148639173774665
+    Attrib Company=Party City    0.036524322550400494
+    Attrib Company=Payless ShoeSource    0.047529594272965214
+    Attrib Company=Pfizer    0.08723186154026191
+    Attrib Company=Pier 1 Imports    0.020690629327057286
+    Attrib Company=Quorum Health    0.030651720144030444
+    Attrib Company=Remington Outdoor    0.05688538444833479
+    Attrib Company=Sears Holdings    0.04096572232112052
+    Attrib Company=Target    0.03631001385936337
+    Attrib Company=Toys R Us    0.06886726757957327
+    Attrib Company=UnitedHealth Group    0.105988526495276
+    Attrib Company=Walmart    0.12111099811814759
+    Attrib Company=Westinghouse Electric    0.04192974747242956
+    Attrib CMR    0.06458825864230051
+    Attrib Op_Leverage    0.011263144900426023
+    Attrib Fin_Leverage    0.08995085372861032
+    Attrib Cash_Ratio    -0.03673917012573583
+    Attrib Debt_to_Equity    0.07809978772880195
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.035680959631431135
+    Attrib Company=3M Company    -0.2686371606114094
+    Attrib Company=Abbott Laboratories    -0.37056598240494
+    Attrib Company=American Medical Systems    0.3729347910860279
+    Attrib Company=Amgen    -0.10353313781615668
+    Attrib Company=Avadel Pharmaceuticals    0.4587026887712849
+    Attrib Company=Bed Bath & Beyond    0.2587257265011542
+    Attrib Company=Best Buy    -0.3255008305955862
+    Attrib Company=Calpine Corporation    0.47852583928196535
+    Attrib Company=Caterpillar    -0.2766683740467691
+    Attrib Company=Claire's Stores    0.26588196328669184
+    Attrib Company=Costco    -0.29341413790463244
+    Attrib Company=Deere & Company    -0.27874038053754047
+    Attrib Company=Dollar General    -0.2365404296051433
+    Attrib Company=Endo International    0.23253577283174545
+    Attrib Company=Forever 21    0.35116695012986343
+    Attrib Company=General Motors    0.17387264867602029
+    Attrib Company=Home Depot    -0.20035157725568578
+    Attrib Company=Honeywell Intl.    -0.23656709199364692
+    Attrib Company=JCPenney    0.13559855396332102
+    Attrib Company=Joann Inc.    0.35838093700563234
+    Attrib Company=Johnson & Johnson    -0.31538105685423407
+    Attrib Company=Kohl's    -0.22622634478083947
+    Attrib Company=Lockheed Martin    -0.34528520620920006
+    Attrib Company=Lowe's    -0.38284546975102823
+    Attrib Company=Lyondell Chemical    0.1779204253771885
+    Attrib Company=Macy's    -0.24015179306324108
+    Attrib Company=Nordstrom    -0.2886693937498132
+    Attrib Company=Novum Pharma    0.3808291357287414
+    Attrib Company=Party City    0.16796027524114693
+    Attrib Company=Payless ShoeSource    0.23652628140975765
+    Attrib Company=Pfizer    -0.2059861507771675
+    Attrib Company=Pier 1 Imports    0.24563286539950174
+    Attrib Company=Quorum Health    0.3122881288456325
+    Attrib Company=Remington Outdoor    0.3054465335779968
+    Attrib Company=Sears Holdings    0.14005907317371463
+    Attrib Company=Target    -0.1320150778223565
+    Attrib Company=Toys R Us    0.13008519003015587
+    Attrib Company=UnitedHealth Group    -0.2796912677100655
+    Attrib Company=Walmart    -0.3519412332548502
+    Attrib Company=Westinghouse Electric    0.22066225752883334
+    Attrib CMR    -0.2839788661982871
+    Attrib Op_Leverage    -0.6195937174862588
+    Attrib Fin_Leverage    -0.3424011198218943
+    Attrib Cash_Ratio    -0.16194150900187507
+    Attrib Debt_to_Equity    -0.028072889558024578
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.05159338033623587
+    Attrib Company=3M Company    0.08779727434247875
+    Attrib Company=Abbott Laboratories    0.07521563037800061
+    Attrib Company=American Medical Systems    0.06088053274312817
+    Attrib Company=Amgen    0.06647289584067859
+    Attrib Company=Avadel Pharmaceuticals    0.036718246246273546
+    Attrib Company=Bed Bath & Beyond    0.058359665887002865
+    Attrib Company=Best Buy    0.09567663579704452
+    Attrib Company=Calpine Corporation    0.1264817765319332
+    Attrib Company=Caterpillar    0.08675080674195969
+    Attrib Company=Claire's Stores    0.04162858162810621
+    Attrib Company=Costco    0.09512224997857965
+    Attrib Company=Deere & Company    0.06186189169379888
+    Attrib Company=Dollar General    0.04629381269092462
+    Attrib Company=Endo International    0.08778453482704163
+    Attrib Company=Forever 21    0.09616421285604226
+    Attrib Company=General Motors    0.04739819223129202
+    Attrib Company=Home Depot    0.08911051690744956
+    Attrib Company=Honeywell Intl.    0.05234686322678519
+    Attrib Company=JCPenney    0.029054388858722652
+    Attrib Company=Joann Inc.    0.07395184387596151
+    Attrib Company=Johnson & Johnson    0.04953954307578791
+    Attrib Company=Kohl's    0.04281594062254749
+    Attrib Company=Lockheed Martin    -0.011987536702480383
+    Attrib Company=Lowe's    0.09872177728786817
+    Attrib Company=Lyondell Chemical    0.1095008726460746
+    Attrib Company=Macy's    0.055588169078052495
+    Attrib Company=Nordstrom    0.008979416037849432
+    Attrib Company=Novum Pharma    0.029764212201084456
+    Attrib Company=Party City    0.11447932241347525
+    Attrib Company=Payless ShoeSource    0.10343235710490166
+    Attrib Company=Pfizer    0.05900238992878167
+    Attrib Company=Pier 1 Imports    0.09665863713069053
+    Attrib Company=Quorum Health    0.03321162881164114
+    Attrib Company=Remington Outdoor    0.0830659041212948
+    Attrib Company=Sears Holdings    0.023881769766630444
+    Attrib Company=Target    0.02921549323458923
+    Attrib Company=Toys R Us    0.04123253205380007
+    Attrib Company=UnitedHealth Group    0.022086883424153485
+    Attrib Company=Walmart    0.012332122533623058
+    Attrib Company=Westinghouse Electric    0.02551291202821346
+    Attrib CMR    -0.02347444811009846
+    Attrib Op_Leverage    -0.02251290105478179
+    Attrib Fin_Leverage    0.009349654210804675
+    Attrib Cash_Ratio    0.01761073692412471
+    Attrib Debt_to_Equity    0.0022450811240693207
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.04141646619796798
+    Attrib Company=3M Company    0.18038043224985428
+    Attrib Company=Abbott Laboratories    0.31721074364077273
+    Attrib Company=American Medical Systems    -0.3115801150329516
+    Attrib Company=Amgen    0.09656173465271663
+    Attrib Company=Avadel Pharmaceuticals    -0.485911938965879
+    Attrib Company=Bed Bath & Beyond    -0.18949729470194526
+    Attrib Company=Best Buy    0.22585464012769096
+    Attrib Company=Calpine Corporation    -0.40427087391706823
+    Attrib Company=Caterpillar    0.23548901001475583
+    Attrib Company=Claire's Stores    -0.20539548043902467
+    Attrib Company=Costco    0.33886664386908766
+    Attrib Company=Deere & Company    0.2811646389843644
+    Attrib Company=Dollar General    0.29440446258510944
+    Attrib Company=Endo International    -0.18527362897427924
+    Attrib Company=Forever 21    -0.2196317540440509
+    Attrib Company=General Motors    -0.17658137704173818
+    Attrib Company=Home Depot    0.22733014563621307
+    Attrib Company=Honeywell Intl.    0.24156680688640605
+    Attrib Company=JCPenney    -0.09400079071775108
+    Attrib Company=Joann Inc.    -0.26818244334358243
+    Attrib Company=Johnson & Johnson    0.14113069362741265
+    Attrib Company=Kohl's    0.16007721512418163
+    Attrib Company=Lockheed Martin    0.22661629849295742
+    Attrib Company=Lowe's    0.3490469020308269
+    Attrib Company=Lyondell Chemical    -0.20425160246789167
+    Attrib Company=Macy's    0.25275112932491395
+    Attrib Company=Nordstrom    0.24055857153440566
+    Attrib Company=Novum Pharma    -0.2821658950575162
+    Attrib Company=Party City    -0.09865896574311118
+    Attrib Company=Payless ShoeSource    -0.18955666773621302
+    Attrib Company=Pfizer    0.1584628097387638
+    Attrib Company=Pier 1 Imports    -0.1858561466229726
+    Attrib Company=Quorum Health    -0.34465839580899243
+    Attrib Company=Remington Outdoor    -0.3001565269089108
+    Attrib Company=Sears Holdings    -0.12355546079661078
+    Attrib Company=Target    0.09008450249299951
+    Attrib Company=Toys R Us    -0.05570260655537308
+    Attrib Company=UnitedHealth Group    0.24458941329389616
+    Attrib Company=Walmart    0.33818959959817485
+    Attrib Company=Westinghouse Electric    -0.1687783205543155
+    Attrib CMR    0.18207030325803655
+    Attrib Op_Leverage    0.5178048534797137
+    Attrib Fin_Leverage    0.28320889824804196
+    Attrib Cash_Ratio    0.09712872227926078
+    Attrib Debt_to_Equity    -0.001558481984378341
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.017338371964165395
+    Attrib Company=3M Company    -0.2421856487977386
+    Attrib Company=Abbott Laboratories    -0.34806120773801696
+    Attrib Company=American Medical Systems    0.3582459752570672
+    Attrib Company=Amgen    -0.09763843406149217
+    Attrib Company=Avadel Pharmaceuticals    0.5451986578820907
+    Attrib Company=Bed Bath & Beyond    0.32255223390560495
+    Attrib Company=Best Buy    -0.3398203049266619
+    Attrib Company=Calpine Corporation    0.5797056875406059
+    Attrib Company=Caterpillar    -0.2772176954463276
+    Attrib Company=Claire's Stores    0.2650719967945681
+    Attrib Company=Costco    -0.3580682656608002
+    Attrib Company=Deere & Company    -0.3262938055708572
+    Attrib Company=Dollar General    -0.2932091140505432
+    Attrib Company=Endo International    0.2801202464868622
+    Attrib Company=Forever 21    0.34176220414863473
+    Attrib Company=General Motors    0.2273426617948485
+    Attrib Company=Home Depot    -0.19616838751672047
+    Attrib Company=Honeywell Intl.    -0.2730230918134396
+    Attrib Company=JCPenney    0.19078066269536814
+    Attrib Company=Joann Inc.    0.3340950602845576
+    Attrib Company=Johnson & Johnson    -0.29142136483795206
+    Attrib Company=Kohl's    -0.2344956703691435
+    Attrib Company=Lockheed Martin    -0.4174563263552101
+    Attrib Company=Lowe's    -0.45273742900922775
+    Attrib Company=Lyondell Chemical    0.2335860791282132
+    Attrib Company=Macy's    -0.2911151023640648
+    Attrib Company=Nordstrom    -0.32159459325990813
+    Attrib Company=Novum Pharma    0.4019289437069953
+    Attrib Company=Party City    0.22489926397407964
+    Attrib Company=Payless ShoeSource    0.2111073791247783
+    Attrib Company=Pfizer    -0.15690942922983878
+    Attrib Company=Pier 1 Imports    0.26186868938311975
+    Attrib Company=Quorum Health    0.3531969426880645
+    Attrib Company=Remington Outdoor    0.25446143223578666
+    Attrib Company=Sears Holdings    0.22018958416642787
+    Attrib Company=Target    -0.17201043278036268
+    Attrib Company=Toys R Us    0.06650310818356256
+    Attrib Company=UnitedHealth Group    -0.2927933023384962
+    Attrib Company=Walmart    -0.3870208392693577
+    Attrib Company=Westinghouse Electric    0.17373916509017887
+    Attrib CMR    -0.3469498235722358
+    Attrib Op_Leverage    -0.7390150662528123
+    Attrib Fin_Leverage    -0.37952546122072023
+    Attrib Cash_Ratio    -0.2341412798177895
+    Attrib Debt_to_Equity    -0.05002505083870446
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.0030829045052315827
+    Attrib Company=3M Company    -0.679768137333309
+    Attrib Company=Abbott Laboratories    -0.9214126310871334
+    Attrib Company=American Medical Systems    1.099518060418828
+    Attrib Company=Amgen    -0.3356400759073533
+    Attrib Company=Avadel Pharmaceuticals    1.462334348434474
+    Attrib Company=Bed Bath & Beyond    0.6982360819132054
+    Attrib Company=Best Buy    -0.8690776963763444
+    Attrib Company=Calpine Corporation    1.3355768271359143
+    Attrib Company=Caterpillar    -0.6954169095240182
+    Attrib Company=Claire's Stores    0.6427247341051073
+    Attrib Company=Costco    -0.8210092257114436
+    Attrib Company=Deere & Company    -0.7215847505368387
+    Attrib Company=Dollar General    -0.7231705506161701
+    Attrib Company=Endo International    0.8127161795316056
+    Attrib Company=Forever 21    0.8438769918576574
+    Attrib Company=General Motors    0.5706864751104243
+    Attrib Company=Home Depot    -0.519435767930255
+    Attrib Company=Honeywell Intl.    -0.7663949039446505
+    Attrib Company=JCPenney    0.48051699816633486
+    Attrib Company=Joann Inc.    0.8583208550154796
+    Attrib Company=Johnson & Johnson    -0.8529164894751998
+    Attrib Company=Kohl's    -0.7555178711768272
+    Attrib Company=Lockheed Martin    -1.1569056094495416
+    Attrib Company=Lowe's    -1.1023296259146196
+    Attrib Company=Lyondell Chemical    0.5428837543171116
+    Attrib Company=Macy's    -0.6259571838687769
+    Attrib Company=Nordstrom    -0.7446238674500943
+    Attrib Company=Novum Pharma    0.8959405791748712
+    Attrib Company=Party City    0.512845354969154
+    Attrib Company=Payless ShoeSource    0.49796090132042625
+    Attrib Company=Pfizer    -0.5011344504685749
+    Attrib Company=Pier 1 Imports    0.7993575529841951
+    Attrib Company=Quorum Health    1.07097231116525
+    Attrib Company=Remington Outdoor    0.730102394623088
+    Attrib Company=Sears Holdings    0.43966390168977465
+    Attrib Company=Target    -0.33293691430153355
+    Attrib Company=Toys R Us    0.27694924483897154
+    Attrib Company=UnitedHealth Group    -0.9105615917127574
+    Attrib Company=Walmart    -0.8416007809683902
+    Attrib Company=Westinghouse Electric    0.4432209273197504
+    Attrib CMR    -0.7076821254169187
+    Attrib Op_Leverage    -1.8717030477276646
+    Attrib Fin_Leverage    -0.8403691063080194
+    Attrib Cash_Ratio    -0.30888450343020707
+    Attrib Debt_to_Equity    0.032207732826694195
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.04993259275695495
+    Attrib Company=3M Company    0.24847026927223184
+    Attrib Company=Abbott Laboratories    0.4117467108389016
+    Attrib Company=American Medical Systems    -0.4447227922432791
+    Attrib Company=Amgen    0.1578848966889103
+    Attrib Company=Avadel Pharmaceuticals    -0.6652900384658816
+    Attrib Company=Bed Bath & Beyond    -0.2698146151058511
+    Attrib Company=Best Buy    0.3684684536407513
+    Attrib Company=Calpine Corporation    -0.5054396383636757
+    Attrib Company=Caterpillar    0.3714350387375325
+    Attrib Company=Claire's Stores    -0.23686237758668696
+    Attrib Company=Costco    0.45417180560425985
+    Attrib Company=Deere & Company    0.35250474668960974
+    Attrib Company=Dollar General    0.3916029614070251
+    Attrib Company=Endo International    -0.3293008533113679
+    Attrib Company=Forever 21    -0.3168458694229851
+    Attrib Company=General Motors    -0.251197166535048
+    Attrib Company=Home Depot    0.235457368032567
+    Attrib Company=Honeywell Intl.    0.3118364900659583
+    Attrib Company=JCPenney    -0.16856437713052588
+    Attrib Company=Joann Inc.    -0.3762605089834159
+    Attrib Company=Johnson & Johnson    0.2846555074826663
+    Attrib Company=Kohl's    0.24841686451450634
+    Attrib Company=Lockheed Martin    0.40927131916388604
+    Attrib Company=Lowe's    0.47036660652223744
+    Attrib Company=Lyondell Chemical    -0.2571024032789982
+    Attrib Company=Macy's    0.3349420042497004
+    Attrib Company=Nordstrom    0.33902686044906166
+    Attrib Company=Novum Pharma    -0.3665736757966822
+    Attrib Company=Party City    -0.22836997573094364
+    Attrib Company=Payless ShoeSource    -0.210850087738218
+    Attrib Company=Pfizer    0.2002016062487407
+    Attrib Company=Pier 1 Imports    -0.3258441737853668
+    Attrib Company=Quorum Health    -0.5550795572693092
+    Attrib Company=Remington Outdoor    -0.4052971920823423
+    Attrib Company=Sears Holdings    -0.14100676377303473
+    Attrib Company=Target    0.1208534587358787
+    Attrib Company=Toys R Us    -0.14725172325828825
+    Attrib Company=UnitedHealth Group    0.3730943538558705
+    Attrib Company=Walmart    0.38719407925305743
+    Attrib Company=Westinghouse Electric    -0.20959132947163375
+    Attrib CMR    0.25240427561437706
+    Attrib Op_Leverage    0.7884625137314303
+    Attrib Fin_Leverage    0.3542351880794107
+    Attrib Cash_Ratio    0.07283022451118862
+    Attrib Debt_to_Equity    -0.01708112631218185
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -0.02136383706922873
+    Attrib Company=3M Company    -0.40089588707299184
+    Attrib Company=Abbott Laboratories    -0.5807755724505651
+    Attrib Company=American Medical Systems    0.6282796916254135
+    Attrib Company=Amgen    -0.18146292340705872
+    Attrib Company=Avadel Pharmaceuticals    0.8183637823493842
+    Attrib Company=Bed Bath & Beyond    0.42709290219131024
+    Attrib Company=Best Buy    -0.5373719212694424
+    Attrib Company=Calpine Corporation    0.8320481837864268
+    Attrib Company=Caterpillar    -0.3884190820182552
+    Attrib Company=Claire's Stores    0.3987009045278114
+    Attrib Company=Costco    -0.5181438605317064
+    Attrib Company=Deere & Company    -0.46588583918848053
+    Attrib Company=Dollar General    -0.46394737406091885
+    Attrib Company=Endo International    0.41611692684830814
+    Attrib Company=Forever 21    0.5668128096769374
+    Attrib Company=General Motors    0.3369494399598666
+    Attrib Company=Home Depot    -0.258370147697578
+    Attrib Company=Honeywell Intl.    -0.454952828946331
+    Attrib Company=JCPenney    0.24914600625593322
+    Attrib Company=Joann Inc.    0.5265210032611713
+    Attrib Company=Johnson & Johnson    -0.4540609872947509
+    Attrib Company=Kohl's    -0.40311062648729257
+    Attrib Company=Lockheed Martin    -0.6377012371542284
+    Attrib Company=Lowe's    -0.6170373574676903
+    Attrib Company=Lyondell Chemical    0.29644583635451077
+    Attrib Company=Macy's    -0.4025968553596354
+    Attrib Company=Nordstrom    -0.47019521409286674
+    Attrib Company=Novum Pharma    0.5653823066613191
+    Attrib Company=Party City    0.25459644837658296
+    Attrib Company=Payless ShoeSource    0.30703102381514413
+    Attrib Company=Pfizer    -0.30453550484995107
+    Attrib Company=Pier 1 Imports    0.45782528899996144
+    Attrib Company=Quorum Health    0.5539883129436501
+    Attrib Company=Remington Outdoor    0.4024331050325837
+    Attrib Company=Sears Holdings    0.29262250146402247
+    Attrib Company=Target    -0.19482541096592568
+    Attrib Company=Toys R Us    0.19216060010589242
+    Attrib Company=UnitedHealth Group    -0.5381762713523303
+    Attrib Company=Walmart    -0.5170018901963226
+    Attrib Company=Westinghouse Electric    0.3205550096583416
+    Attrib CMR    -0.47223733437406756
+    Attrib Op_Leverage    -1.1345953660249297
+    Attrib Fin_Leverage    -0.5374216100228607
+    Attrib Cash_Ratio    -0.22076609933474842
+    Attrib Debt_to_Equity    -0.02477798992390616
+Class Bankrupt
+    Input
+    Node 0
+Class Non-bankrupt
+    Input
+    Node 1
+

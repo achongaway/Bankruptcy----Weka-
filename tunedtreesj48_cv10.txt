@@ -1,0 +1,25 @@
+=== tunedtreesj48 — 10-fold cross-validation on 40-company training set ===
+Scheme: weka.classifiers.trees.J48 -M 5 -C 0.05
+
+Correctly Classified Instances          36               90      %
+Incorrectly Classified Instances         4               10      %
+Kappa statistic                          0.8   
+Mean absolute error                      0.1614
+Root mean squared error                  0.3088
+Relative absolute error                 32.2767 %
+Root relative squared error             61.7506 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.850    0.050    0.944      0.850    0.895      0.804    0.850     0.838     Bankrupt
+                 0.950    0.150    0.864      0.950    0.905      0.804    0.850     0.799     Non-bankrupt
+Weighted Avg.    0.900    0.100    0.904      0.900    0.900      0.804    0.850     0.818     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 17  3 |  a = Bankrupt
+  1 19 |  b = Non-bankrupt
+

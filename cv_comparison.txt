@@ -1,0 +1,9 @@
+10-fold cross-validation of six tuned Weka classifiers - 40-company bankruptcy training set (seed 1)
+Model (tuned config)           Accuracy   Kappa    Recall(Bkrpt)  Prec(Bkrpt)    F1(Bkrpt) 
+tunedtreesj48                  0.900      0.800    0.850          0.944          0.895     
+tunedrandomforest              0.875      0.750    0.850          0.895          0.872     
+tunedbagging                   0.500      0.000    0.400          0.500          0.444     
+tunedknnlbk                    0.825      0.650    0.700          0.933          0.800     
+tunedSMO                       0.650      0.300    0.700          0.636          0.667     
+tunedmultilayerperceptron      0.725      0.450    0.750          0.714          0.732     
+

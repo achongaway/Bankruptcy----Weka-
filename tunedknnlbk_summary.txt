@@ -1,0 +1,9 @@
+=== Model: tunedknnlbk.model ===
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.lazy.IBk
+Cross-validation Parameter: '-K' ranged from 1.0 to 15.0 with 15.0 steps
+Classifier Options: -K 7 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+
+IB1 instance-based classifier
+using 7 nearest neighbour(s) for classification
+

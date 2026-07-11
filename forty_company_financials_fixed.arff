@@ -1,0 +1,51 @@
+@RELATION forty_company_financials_fixed
+
+@ATTRIBUTE Company {'Sears Holdings','JCPenney','Toys "R" Us','Bed Bath & Beyond','Forever 21','Joann Inc.','Party City','Claire\'s Stores','Pier 1 Imports','Payless ShoeSource','Endo International','Quorum Health','American Medical Systems','Avadel Pharmaceuticals','Novum Pharma','General Motors','Remington Outdoor','Westinghouse Electric','Lyondell Chemical','Calpine Corporation','Walmart','Target','Costco','Dollar General','Best Buy','Home Depot','Lowe\'s','Macy\'s','Kohl\'s','Nordstrom','Pfizer','UnitedHealth Group','Abbott Laboratories','Amgen','Caterpillar','3M Company','Honeywell Intl.','Deere & Company','Lockheed Martin','Johnson & Johnson'}
+@ATTRIBUTE CMR NUMERIC
+@ATTRIBUTE Op_Leverage NUMERIC
+@ATTRIBUTE Fin_Leverage NUMERIC
+@ATTRIBUTE Cash_Ratio NUMERIC
+@ATTRIBUTE Debt_to_Equity NUMERIC
+@ATTRIBUTE Status {Bankrupt,Non-bankrupt}
+
+@DATA
+'Sears Holdings',0.002,0.84,-3.90,0.06,-6.57,Bankrupt
+'JCPenney',0.355,-3.07,-5.37,0.24,-3.60,Bankrupt
+'Toys "R" Us',0.355,-3.07,-5.40,0.24,-3.63,Bankrupt
+'Bed Bath & Beyond',0.283,0.8,-1.46,0.07,-1.04,Bankrupt
+'Forever 21',0.164,1.27,5.04,0.08,3.98,Bankrupt
+'Joann Inc.',0.286,0.83,6,0.08,3.1,Bankrupt
+'Party City',0.214,0.84,-8.10,0.06,-2.00,Bankrupt
+'Claire\'s Stores',0.343,0.83,-4.00,0.13,-6.45,Bankrupt
+'Pier 1 Imports',0.134,1.44,-8.17,0.11,-2.58,Bankrupt
+'Payless ShoeSource',0.143,0.86,-4.39,0.12,-1.90,Bankrupt
+'Endo International',0.359,0.65,-1.25,0.12,-2.25,Bankrupt
+'Quorum Health',0.117,1,11.17,0.11,6.63,Bankrupt
+'American Medical Systems',0.407,0.75,5,0.25,2,Bankrupt
+'Avadel Pharmaceuticals',0.888,0.65,2.13,0.7,0.5,Bankrupt
+'Novum Pharma',0.4,0.71,?,0,?,Bankrupt
+'General Motors',0.194,0.34,-0.91,0.16,-1.91,Bankrupt
+'Remington Outdoor',0.314,0.89,-1.79,0.1,-0.88,Bankrupt
+'Westinghouse Electric',0.05,0.8,-2.82,0.12,-3.82,Bankrupt
+'Lyondell Chemical',0.228,0.78,-9.55,0.28,-10.55,Bankrupt
+'Calpine Corporation',0.272,0.71,22.33,0.28,22.18,Bankrupt
+'Walmart',0.248,1.51,2.68,0.09,0.62,Non-bankrupt
+'Target',0.7,1.36,16.3,0.12,7.06,Non-bankrupt
+'Costco',0.126,1.26,2.96,0.31,0.42,Non-bankrupt
+'Dollar General',0.297,1.52,4.2,0.04,2.68,Non-bankrupt
+'Best Buy',0.224,1.35,5.27,0.14,1.45,Non-bankrupt
+'Home Depot',0.334,1.45,14.47,0.05,9.38,Non-bankrupt
+'Lowe\'s',0.334,1.51,-6.31,0.12,-2.94,Non-bankrupt
+'Macy\'s',0.406,1.56,2.4,0.16,0.23,Non-bankrupt
+'Kohl\'s',0.404,3.82,3.19,0.04,1.95,Non-bankrupt
+'Nordstrom',0.384,1.75,2.09,0.21,0.22,Non-bankrupt
+'Pfizer',0.72,1.55,2.42,0.16,0.76,Non-bankrupt
+'UnitedHealth Group',0.223,2.24,3.06,0.13,0.69,Non-bankrupt
+'Abbott Laboratories',0.553,0.51,1.73,0.24,0.32,Non-bankrupt
+'Amgen',0.615,1.78,15.62,0.14,10.35,Non-bankrupt
+'Caterpillar',0.379,1.21,4.29,0.25,2,Non-bankrupt
+'3M Company',0.412,1.16,8.94,0.52,3.17,Non-bankrupt
+'Honeywell Intl.',0.38,1.5,4.01,0.55,1.83,Non-bankrupt
+'Deere & Company',0.281,1.29,3.75,0.27,2.75,Non-bankrupt
+'Lockheed Martin',0.098,1.31,8.78,0.13,3.2,Non-bankrupt
+'Johnson & Johnson',0.691,1.19,2.52,0.49,0.51,Non-bankrupt

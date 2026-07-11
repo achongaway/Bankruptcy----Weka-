@@ -1,0 +1,44 @@
+=== tunedmultilayerperceptron — predictions on 20-company held-out test set ===
+Company                          Actual         Predicted     
+GNC Holdings Inc.                Bankrupt       Bankrupt      
+Stage Stores Inc.                Bankrupt       Bankrupt      
+J. Crew Group Inc.               Bankrupt       Bankrupt      
+Rite Aid Corp.                   Bankrupt       Bankrupt      
+Pear Therapeutics Inc.           Bankrupt       Bankrupt      
+23andMe Holding Co.              Bankrupt       Bankrupt      
+Nikola Corporation               Bankrupt       Bankrupt      
+Akoustis Technologies Inc.       Bankrupt       Bankrupt      
+Ascend Performance Materials     Bankrupt       Bankrupt      
+Solid Power Inc.                 Non-bankrupt   Non-bankrupt  
+Resonant Inc.                    Non-bankrupt   Bankrupt      
+Indorama Ventures                Non-bankrupt   Non-bankrupt  
+Vitamin Shoppe                   Non-bankrupt   Bankrupt      
+Build-A-Bear Workshop            Non-bankrupt   Bankrupt      
+Citi Trends Inc.                 Non-bankrupt   Bankrupt      
+Walgreens Boots Alliance         Non-bankrupt   Bankrupt      
+CVS Health                       Non-bankrupt   Bankrupt      
+Akili Interactive                Non-bankrupt   Bankrupt      
+
+
+Correctly Classified Instances          11               61.1111 %
+Incorrectly Classified Instances         7               38.8889 %
+Kappa statistic                          0.2222
+Mean absolute error                      0.3909
+Root mean squared error                  0.5983
+Relative absolute error                 78.1873 %
+Root relative squared error            119.6585 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.778    0.563      1.000    0.720      0.354    0.642     0.581     Bankrupt
+                 0.222    0.000    1.000      0.222    0.364      0.354    0.642     0.754     Non-bankrupt
+Weighted Avg.    0.611    0.389    0.781      0.611    0.542      0.354    0.642     0.668     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 9 0 | a = Bankrupt
+ 7 2 | b = Non-bankrupt
+

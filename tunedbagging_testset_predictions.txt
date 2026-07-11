@@ -1,0 +1,44 @@
+=== tunedbagging — predictions on 20-company held-out test set ===
+Company                          Actual         Predicted     
+GNC Holdings Inc.                Bankrupt       Bankrupt      
+Stage Stores Inc.                Bankrupt       Bankrupt      
+J. Crew Group Inc.               Bankrupt       Bankrupt      
+Rite Aid Corp.                   Bankrupt       Bankrupt      
+Pear Therapeutics Inc.           Bankrupt       Bankrupt      
+23andMe Holding Co.              Bankrupt       Bankrupt      
+Nikola Corporation               Bankrupt       Bankrupt      
+Akoustis Technologies Inc.       Bankrupt       Bankrupt      
+Ascend Performance Materials     Bankrupt       Bankrupt      
+Solid Power Inc.                 Non-bankrupt   Bankrupt      
+Resonant Inc.                    Non-bankrupt   Bankrupt      
+Indorama Ventures                Non-bankrupt   Bankrupt      
+Vitamin Shoppe                   Non-bankrupt   Bankrupt      
+Build-A-Bear Workshop            Non-bankrupt   Bankrupt      
+Citi Trends Inc.                 Non-bankrupt   Bankrupt      
+Walgreens Boots Alliance         Non-bankrupt   Bankrupt      
+CVS Health                       Non-bankrupt   Bankrupt      
+Akili Interactive                Non-bankrupt   Bankrupt      
+
+
+Correctly Classified Instances           9               50      %
+Incorrectly Classified Instances         9               50      %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5002
+Relative absolute error                100      %
+Root relative squared error            100.0473 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.500      1.000    0.667      ?        0.500     0.500     Bankrupt
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.500     Non-bankrupt
+Weighted Avg.    0.500    0.500    ?          0.500    ?          ?        0.500     0.500     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 9 0 | a = Bankrupt
+ 9 0 | b = Non-bankrupt
+
